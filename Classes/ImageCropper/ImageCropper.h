@@ -10,6 +10,7 @@
 @interface ImageCropper : UIViewController <UIScrollViewDelegate> {
 	UIScrollView *scrollView;
 	UIImageView *imageView;
+    UIImageOrientation imageOrientation;
 	
 	id <ImageCropperDelegate> delegate;
 }
